@@ -18,9 +18,20 @@ nro_impares = mi_tupla_1[0::2]
 
 print(nro_impares)
 
-sum = 0
+suma = 0
 for tmp in nro_impares:
-    sum = sum + tmp
-    print(tmp)
+    suma = suma + tmp
+    #print(tmp)
 
-print(sum)
+print(f"la suma es {suma}")
+
+suma2 = sum(nro_impares)
+
+print(f"la suma es {suma2}")
+
+min_valor = min(nro_impares)
+max_valor = max(nro_impares)
+
+diff = max_valor - min_valor
+print(f"la diferencia es {diff}")
+
