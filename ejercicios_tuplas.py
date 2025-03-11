@@ -17,3 +17,10 @@ mi_tupla_1 = (3,4,5,6,7,8,9,10,11,12,13)
 nro_impares = mi_tupla_1[0::2]
 
 print(nro_impares)
+
+sum = 0
+for tmp in nro_impares:
+    sum = sum + tmp
+    print(tmp)
+
+print(sum)
