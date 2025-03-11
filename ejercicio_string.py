@@ -11,3 +11,8 @@ print(msg[21])
 print(msg[-1])
 
 print(len(msg))
+
+nro = "15"
+
+nro_convertido = int(nro)
+
