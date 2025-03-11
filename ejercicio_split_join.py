@@ -16,3 +16,24 @@ for persona in participantes:
 
 print(edades)
 print(sum(edades))
+
+
+'''
+msg = "El dia de hoy tenemos clases de Python"
+
+Generar el siguiente mensaje
+
+"El--dia--de--hoy--tenemos--clases--de--Python"
+
+Usar los metodos join y split
+'''
+
+msg = "El dia de hoy tenemos clases de Python"
+
+data = msg.split(" ")
+
+print(data)
+
+salida = "--".join(data)
+
+print(salida)
