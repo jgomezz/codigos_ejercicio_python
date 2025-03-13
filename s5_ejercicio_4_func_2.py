@@ -1,9 +1,7 @@
-def ope_mat(a,b,ope) :
-     
-     if ope == '+' :
-        s = a + b
-        print(s)
 
+
+
+from s5_mi_modulo import ope_mat
 
 a = 4
 b = 5
