@@ -1,3 +1,5 @@
+# Caso 1
+
 # Define la clase
 class Humano:
     pass
@@ -18,16 +20,32 @@ Abel.papa = Adan
 Abel.mama =  Eva
 Abel.edad = 10
 
-
 print(Abel.mama.edad)
 print(Abel.papa.edad)
 print(Abel.edad)
 
 
+# Caso 2
+
+print("--------- Caso 2")
+
+# Define la clase
+class Humano:
+
+    # Constructor del a clase
+    def __init__(self, papa, mama, edad):
+        self.papa = papa
+        self.mama = mama
+        self.edad = edad
 
 
 
+Adan = Humano(None, None, 33)
 
+Eva = Humano(None, None, 32)
 
+Abel = Humano(Adan, Eva, 10)
 
-
+print(Abel.mama.edad)
+print(Abel.papa.edad)
+print(Abel.edad)
