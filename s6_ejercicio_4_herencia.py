@@ -32,3 +32,8 @@ if __name__ == '__main__' :
 
     print(mi_auto.marca)
     print(mi_auto.anho)
+
+    mi_mov_escolar = VAN("Nissan","Negro",2012, 5, "Lima")
+
+    print(mi_mov_escolar.marca)
+    print(mi_mov_escolar.anho)
