@@ -11,6 +11,10 @@ class Auto:
         self.ciudad = ciudad
 
 
+    def obtener_informacion(self):
+         
+         return self.name
+
 
 class SUV (Auto):
     pass
@@ -27,3 +31,4 @@ if __name__ == '__main__' :
     mi_auto  = SUV("Toyota","Negro",1999, 2, "Lima")
 
     print(mi_auto.marca)
+    print(mi_auto.anho)
