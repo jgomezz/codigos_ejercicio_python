@@ -3,9 +3,13 @@ class Instituto:
 
     def __init__(self, name , district):
 
-        self.name =  name
+        self.name =  name  # atributo nombre 
         self.district =  district
         
+
+    def getName(self):
+        return self.name
+    
 
 # Programa Principal
 if __name__ == '__main__' :
@@ -14,3 +18,4 @@ if __name__ == '__main__' :
 
     print(mi_instituto.name)
 
+    print(mi_instituto.getName())
