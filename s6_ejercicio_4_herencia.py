@@ -24,5 +24,6 @@ class VAN (Auto):
 # Programa Principal
 if __name__ == '__main__' :
 
-    auto_SUV  = SUV()
+    mi_auto  = SUV("Toyota","Negro",1999, 2, "Lima")
 
+    print(mi_auto.marca)
