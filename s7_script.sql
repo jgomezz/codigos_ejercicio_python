@@ -40,3 +40,8 @@ CREATE TABLE productos (
   precio INT(5) NOT NULL,
   PRIMARY KEY(id) 
 );
+
+
+USE comercio;
+
+INSERT INTO employees (first_name, last_name, gender)VALUES ("Juan","Acosta","M")
