@@ -31,3 +31,12 @@ CREATE TABLE comercio.employees (
 );
 
 DROP TABLE comercio.employees;
+
+
+CREATE TABLE productos (
+  id INT(6) NOT NULL AUTO_INCREMENT,
+  nombre VARCHAR(20) NOT NULL,
+  descripcion VARCHAR(100) NOT NULL,
+  precio INT(5) NOT NULL,
+  PRIMARY KEY(id) 
+);
