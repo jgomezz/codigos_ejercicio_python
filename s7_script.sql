@@ -44,6 +44,8 @@ CREATE TABLE productos (
 
 USE comercio;
 
+-- INSERSION DE REGISTROS
+
 INSERT INTO employees (first_name, last_name, gender)VALUES ("Juan","Acosta","M")
 
 INSERT INTO employees (first_name, last_name, gender)
@@ -51,3 +53,6 @@ VALUES
 	("Juan","Acosta","H"),
     ("Silvia","Garcia","M"),
     ("Maribel","Alegria","M");
+
+-- SELECCCION DE REGISTROS
+SELECT * FROM comercio.employees;
