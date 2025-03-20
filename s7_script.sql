@@ -56,3 +56,12 @@ VALUES
 
 -- SELECCCION DE REGISTROS
 SELECT * FROM comercio.employees;
+
+
+SELECT emp_no , last_name FROM comercio.employees;
+
+SELECT emp_no as nro , last_name as Apellido FROM comercio.employees;
+
+SELECT emp_no , last_name 
+FROM comercio.employees
+WHERE gender = "H";
