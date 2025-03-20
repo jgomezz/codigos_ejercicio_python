@@ -5,7 +5,6 @@ class Auto:
     def __init__(self,  marca, color, anho ,garantia, ciudad ):
         self.marca = marca
         self.color = color
-        self.anho = marca
         self.anho = anho
         self.garantia = garantia
         self.ciudad = ciudad
@@ -13,11 +12,14 @@ class Auto:
 
     def obtener_informacion(self):
          
-         return self.name
+         return self.marca
 
 
 class SUV (Auto):
-    pass
+
+    def obtener_informacion(self):
+         
+         return self.ciudad
 
 class Seddan (Auto):
     pass
@@ -32,8 +34,10 @@ if __name__ == '__main__' :
 
     print(mi_auto.marca)
     print(mi_auto.anho)
+    print("DEBUG3" + mi_auto.obtener_informacion())
 
     mi_mov_escolar = VAN("Nissan","Negro",2012, 5, "Lima")
 
     print(mi_mov_escolar.marca)
     print(mi_mov_escolar.anho)
+    print("debuf1m"  + mi_mov_escolar.obtener_informacion())
